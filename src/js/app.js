@@ -62,7 +62,9 @@ function render(variables = {}) {
  * Don't change any of the lines below, here is where we do the logic for the dropdowns
  */
 window.onload = function() {
+
   let women = Math.floor(Math.random() * 43) + 1;
+  
   window.variables = {
     // if includeCover is true the algorithm should show the cover image
     includeCover: true,
