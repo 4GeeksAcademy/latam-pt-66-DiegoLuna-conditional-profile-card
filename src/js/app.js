@@ -47,7 +47,7 @@ function render(variables = {}) {
             <li><a href="https://github.com/${
               variables.github ? variables.github : "4geeksacademy"
             }"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/school/${
+            <li><a href="https://linkedin.com/in/${
               variables.linkedin ? variables.linkedin : "4geeksacademy"
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${
@@ -62,9 +62,8 @@ function render(variables = {}) {
  * Don't change any of the lines below, here is where we do the logic for the dropdowns
  */
 window.onload = function() {
-
   let women = Math.floor(Math.random() * 43) + 1;
-  
+
   window.variables = {
     // if includeCover is true the algorithm should show the cover image
     includeCover: true,
